@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(assignment7)
+project(raster)
 
 if(NOT CMAKE_BUILD_TYPE)
 	message(STATUS "No build type selected, default to Release")
@@ -7,7 +7,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 # Project sources
-add_executable("assignment7"
+add_executable(${PROJECT_NAME}
 	src/main.cpp
 	src/raster.h
 	src/raster.cpp

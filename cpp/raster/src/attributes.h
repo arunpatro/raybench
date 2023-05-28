@@ -32,7 +32,7 @@ class VertexAttributes {
 
 class FragmentAttributes {
    public:
-    FragmentAttributes(double r = 0, double g = 0, double b = 0, double a = 1) {
+    FragmentAttributes(double r = 0, double g = 0, double b = 0, double a = 0) {
         color << r, g, b, a;
     }
 
@@ -43,7 +43,7 @@ class FragmentAttributes {
 class FrameBufferAttributes {
    public:
     FrameBufferAttributes(uint8_t r = 0, uint8_t g = 0, uint8_t b = 0,
-                          uint8_t a = 255) {
+                          uint8_t a = 0) {
         color << r, g, b, a;
         // neg inf in double
         depth = std::numeric_limits<double>::lowest();
