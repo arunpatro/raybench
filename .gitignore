@@ -1,0 +1,6 @@
+bazel-*
+build
+ext
+rust
+python
+.vscode

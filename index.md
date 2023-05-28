@@ -1,9 +1,10 @@
 ## raybench
 benchmaring rust-vs-cpp (also mojo and python) for ray tracing
 
-Resources
+Mentions:
 - https://docs.google.com/spreadsheets/d/1OQ_U8fY8DCzwz8CoYbobhHeJ4oKW49x4uOhf4Yy9mwU/edit#gid=0
 - https://github.com/niofis/raybench
+- https://xania.org/201505/on-rust-performance
 
 
 ### Introduction
