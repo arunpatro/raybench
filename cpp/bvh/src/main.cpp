@@ -60,8 +60,6 @@ class AABBTree {
 ////////////////////////////////////////////////////////////////////////////////
 const std::string data_dir = DATA_DIR;
 const std::string filename("bvh.png");
-// const std::string mesh_filename(data_dir + "dodeca.off");
-// const std::string mesh_filename(data_dir + "cube.off");
 // const std::string mesh_filename(data_dir + "bunny.off");
 const std::string mesh_filename(data_dir + "dragon.off");
 
